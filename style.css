@@ -17,12 +17,14 @@ p {
 }
 .part1{
  color:orange;
- font-size: 15px
- margin-bottom: 10 px;}
+ font-size: 2vw; 
+ line-height: 1.6;
+ margin: 20px;}
  .part2{
  color:orange;
- font-size: 15px
- margin: 8px;}
+  font-size: 2vw;  
+  line-height: 1.6;
+ margin: 20px;}
 
 h3 {
  color: white;
