@@ -1,37 +1,101 @@
+
 body {
- background: black;
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.H, .N {
+    display: inline-block;
+    font-size: 10vw; 
+}
+
 .H {
-background:#FF9900;
-display: inline;
-padding: 2px 4px 2px 4px;
-color:black;
- 
-    font-size: 10vw;
-
-
+    background: #FF9900;
+    padding: 5px 10px;
+    color: black;
 }
-.N{Color:white;
-display: inline;
-  font-size:10vw;}
-p {
- color:orange;
- 
-    font-size: 6vw; 
+
+.N {
+    color: white;
+}
+
+
+.intro-text {
+    color: orange;
+    font-size: 5vw;
     line-height: 1.6;
+    text-align: center;
     margin: 20px;
 }
-.part1{
- color:orange;
- font-size: 4vw; 
- line-height: 1.6;
- margin: 20px;}
- .part2{
- color:orange;
-  font-size: 4vw;  
-  line-height: 1.6;
- margin: 20px;}
+
 
 h3 {
- color: white;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 20px;
+}
+
+
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 95%;
+    max-width: 720px; 
+    height: auto;
+}
+
+/* Video 
+.part1, .part2 {
+    color: orange;
+    font-size: 4vw;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .H, .N {
+        font-size: 8vw;
+    }
+
+    .intro-text {
+        font-size: 3vw;
+    }
+
+    .part1, .part2 {
+        font-size: 2.5vw;
+    }
+
+    h3 {
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .H, .N {
+        font-size: 6vw;
+    }
+
+    .intro-text {
+        font-size: 2.5vw;
+    }
+
+    .part1, .part2 {
+        font-size: 2vw;
+    }
+
+    h3 {
+        font-size: 2.5vw;
+    }
 }
