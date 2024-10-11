@@ -12,11 +12,12 @@ color:black;
 
 }
 .N{Color:white;
-display: inline;}
+display: inline;
+  font-size:10vw;}
 p {
  color:orange;
  
-    font-size: 10vw; 
+    font-size: 6vw; 
     line-height: 1.6;
     margin: 20px;
 }
